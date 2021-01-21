@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-image:url('hoankiem.jpg') ;
+    width: 100vw;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    /* background-position: 500px; */
+    color: black;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main {
+    display: block;
+    border: 1px solid rgb(94, 87, 87);
+    background-color: #eeeeebe8;
+    border-radius: 25px;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    /* top: 50px; */
+    top: 20%;
+    left: 37%;
+
+}
+
+.above .date {
+    display: inline-block;
+    margin-left: 25%;
+}
+.above p {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.center {
+   width: 100%px;
+   height: 60%;
+    position: relative;
+    /* left: 20%; */
+}
+
+#desc {
+
+    font-weight: 600;
+    text-align: center;
+
+}
+
+#degree {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 31px;
+}
